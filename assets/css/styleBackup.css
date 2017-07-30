@@ -1,0 +1,285 @@
+/* Layout */
+
+/* Header */
+
+/* Header Tag */
+
+header {
+  	/*background: #4aaaa5;*/
+	color: #ffffff;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	background: white;
+} 
+
+.header {
+	height: 9.5%;
+	background: white;
+	border-bottom: 4px;
+	border-bottom-style: solid;
+	border-bottom-color: #878787;
+}
+
+.name {
+	padding: 0px 20px 0px 20px;
+  	margin: 0px 0px 0px 97px;
+	background: #4aaaa5;
+	color: #ffffff;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	border-bottom: #cccccc;
+	float: left;
+	height: 100%;
+	border-bottom: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #878787;
+	vertical-align: middle;
+}
+
+.tabs {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	text-decoration: none;
+	display: inline;
+	float: right;
+	margin: 18px 5px 0px 2px;
+	color: #878787;
+}
+
+/* body */
+
+body {
+	color: #777777;
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	background-image: url("../images/wall.png")
+}
+
+/* Middle Box */
+
+.main-box {
+	display: box;
+	position: relative;
+	float: left;
+	height: 83%;
+	width: 100%;
+	border: 2px 0px 0px 3px;
+	border-top-color: #878787;
+	border-bottom-color: #dddddd;
+}
+
+/*.underline {
+	color: #a6a7a8;
+	height: 1px;
+	background: #a6a7a8;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}*/
+
+.changing-box {
+	display: box;
+	float: left;
+	position: relative;
+	background: white;
+	margin: 50px 0px 0px 100px;
+	padding: 25px 35px 25px 35px;
+	width: 50%;
+}
+
+.connect-box {
+	display: box;
+	float: right;
+	background: white;
+	top: 50px;
+	position: relative;
+	padding: 20px 20px 20px 20px;
+	margin: 0px 150px 0px 100px;
+}
+
+.txtoimg {
+	position: relative; 
+    float: left;
+    padding: 5px 10px 20px 10px;
+}
+
+h4 {
+	top: 200px;
+	background-color: #4aaaa5;
+    color: white;
+	position: absolute; 
+	text-align: center;
+	padding: 20px 0px 20px 0px;
+    width: 300px;
+}
+
+
+
+.portfolio {
+	width: 100%;
+	height: 100%;
+}
+
+.form {
+	width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #878787;
+}
+
+.msg {
+	width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box
+}
+
+#submit {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#h2 {
+  	color: #4aaaa5;
+  	background: #ffffff;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+#h3 {
+	color: #4aaaa5;
+  	background: #ffffff;
+  	font-family: 'Georgia', Times, Times New Roman, serif;
+  	font-weight: bold;
+  	text-align: center;
+}
+
+#img {
+	display: inline-block;
+	float: left;
+	position: relative;
+	padding: 5px 5px 5px 5px;
+	margin: 15px 20px 5px 0px;
+	width: 300px;
+}
+.img {
+	display: inline-block;
+	float: left;
+	position: relative;
+	padding: 5px 5px 25px 5px;
+}
+
+.par {
+	background: #ffffff;
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	border-bottom: #dddddd;	
+	font-size: 20px;
+}
+#rm {
+	margin-right: 50px;
+}
+
+.mid {
+	margin-top: 20px;
+}
+
+.bottom-bar {
+	position: fixed;
+	height: 8px;
+	background-color: #4aaaa5;
+	bottom: 58px;
+	width: 100%;
+}
+
+
+/* Footer */
+
+.footer {
+	display: block;
+	text-align: center;
+	background: #686a6d;
+	color: #ffffff;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;	
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	height: 7%;
+	font-size: 12px;
+	text-align: center;
+	border-top: 5px;
+	border-top-style: solid;
+	border-top-color: #4aaaa5;
+}
+
+
+/*screen size for desktop*/
+
+@media screen and (max-width:980px) { /*format must be exactly the same including the spaces*/
+	/*define all to be responsive ids/classes/tags here*/
+	.header{
+		width:100%; /*use % here*/
+	}
+	.changing-box{
+		width: 40%;
+		margin: 50px 0px 0px 100px;
+		padding: 25px 35px 25px 35px;
+	}
+	#img{
+		width:100%;
+	}
+	.connect-box{
+		width:20%;
+		padding: 20px 20px 20px 20px;
+		margin: 0px 150px 0px 20px;
+	}
+
+	.image{
+		width:2%;
+		padding: 0px 0px 0px 0px;
+	}
+	.footer{
+		width:100%;
+	}
+}
+
+/*for each screen size add a new media querry*/
+/*screen size for a tablet*/
+
+@media screen and (max-width:768px) { /*format must be exactly the same including the spaces*/
+	/*define all to be responsive ids/classes/tags here*/
+	.header{
+		width:100%; /*use % here*/
+	}
+	.changing-box{
+		width: 100%;
+		margin: 30px 30px 30px 30px;
+		float: left;
+	}
+	.connect-box{
+		width:100%;
+		margin: 0px 30px 30px 30px;
+		float: left;
+	}
+}
+
+/*smallest screen size (phones)*/
+
+@media screen and (max-width:640px) { /*format must be exactly the same including the spaces*/
+	/*define all to be responsive ids/classes/tags here*/
+	#container{
+		width:320px; /*website can be no smaller than 320px. if it becomes smaller, the user will have to scroll instead of being able to see everything on one screen*/
+	}
+}
